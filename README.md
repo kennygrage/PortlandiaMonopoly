@@ -1,38 +1,29 @@
-Working readme for project responsibilities and data inputs and outputs.
+# Portlandia Monopoly
 
-Jason
-Generating the css and board with tile configurations.
-Board card object, controller
-{boardCardName: "string", value: int, location: int, mortgageValue: int, img: "string"}
+##### Portlandia Monopoly 10/08/2015
 
------------Dana/Tyler ------------------
-roll function, gathering data for cards
------------------------------------
-=======
-Chris
-creating GameFactory, UtilitiesFactory
-GameFactory initializes:
+#### Kenny Grage, Jason Creighton, and Chris
 
-Player{
-  id: int
-  money: int
-  pieceId: int
-  cardsOwned : type.id
-}
+## Description
 
-Property{
-  id: int
-  name: string
-  price: int
-  description: string
-}
+This app is a Monopoly game using some Portland Tech companies in place of the traditional deeds.
 
-actionCard{
-  id:int
-  name: string
-  action: function(player, money, action = null)
-}
+## Technologies Used
 
-UtilitiesFactory
+AngularJS, JavaScript, HTML, CSS, jQuery
 
-findbyId function
+### Legal
+
+Copyright (c) 2015 Kenny Grage, Jason Creighton, and Chris
+
+This software is licensed under the MIT license.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
